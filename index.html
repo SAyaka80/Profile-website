@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio/SAyaka</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="imgBox">
+        <img src="images/dog.png" alt="dog" width="160" height="160" />
+      </div>
+      <div class="naviContainer">
+        <nav class="navi">
+          <ul class="naviList">
+            <li><a href="#work">Work</a></li>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="mainContainer">
+      <main>
+        <section id="work">
+          <h2>Work</h2>
+
+          <div class="workTop">
+            <div class="workSummary">
+              <h3>Weathe app</h3>
+              <p>
+                天気APIを利用したWebアプリです。
+                JavaScriptでのAPI連携と、取得したデータの表示処理を学ぶことを目的に制作しました。
+              </p>
+              <p>📅 2025.01／⏱️ 約4か月</p>
+
+              <ul class="skillList">
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+
+              <ul class="urlList">
+                <li>
+                  <a href="https://sayaka80.github.io/Weather-app/" target="_blank" rel="noopener"> Demo</a>
+                </li>
+                <li>
+                  <a href="https://github.com/SAyaka80/Weather-app.git" target="_blank" rel="noopener">GitHub</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="eyeCatcher">
+              <img src="images/weatherapp.png" alt="Weatherappのサムネイル" width="600" height="400" />
+            </div>
+          </div>
+
+          <div class="workBody">
+            <h4>実装したこと</h4>
+            <ul class="comment">
+              <li>都市を切り替えて天気を表示できる機能を実装</li>
+              <li>天気情報取得のために外部APIを利用</li>
+              <li>取得したデータを加工し、現在の天気・気温を画面に表示</li>
+            </ul>
+
+            <h4>学んだこと</h4>
+            <p>外部APIを使ったデータ取得から表示までの一連の流れを理解することを目的に制作しました。</p>
+
+            <ul class="comment">
+              <li>APIからデータを取得する基本的な流れ</li>
+              <li>JSONデータの扱い方</li>
+              <li>JavaScriptを用いたデータの加工と表示</li>
+              <li>日時情報の取り扱い</li>
+            </ul>
+
+            <h4>現時点での課題</h4>
+            <ul class="comment">
+              <li>天気予報の表示内容が最低限に留まっており、情報量や見せ方に改善の余地がある</li>
+              <li>アイコンと背景のコントラストが弱く、視認性に課題がある</li>
+              <li>日付の判定をUTC基準で行っているため、日本時間では当日分の予報が一部欠けてしまう</li>
+            </ul>
+
+            <h4>今後の改善</h4>
+            <ul class="comment">
+              <li>今日・明日の天気予報を1日単位で表示する機能の追加</li>
+              <li>APIの時刻データを日本時間基準で扱い「今日の予報」が欠けないよう修正</li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="profile">
+          <h2>Profile</h2>
+
+          <div class="profileWrapper">
+            <div class="profilePN">
+              <div class="profilePic">
+                <img src="images/icon.png" alt="SAyakaのプロフィール写真" width="150" height="150" />
+              </div>
+
+              <div class="profileName">
+                <h3 class="name">SAyaka</h3>
+              </div>
+            </div>
+
+            <div class="profileBody">
+              <div class="skills">
+                <h4>できること</h4>
+                <ul>
+                  <li>HTML / CSS（レイアウト・レスポンシブ対応）</li>
+                  <li>JavaScript（基礎文法、DOM操作、API連携）</li>
+                </ul>
+              </div>
+
+              <div class="important">
+                <h4>大切にしていること</h4>
+                <ul>
+                  <li>分からないままにせず、原因を言語化すること</li>
+                  <li>ひとまず手を動かし、改善を重ねること</li>
+                </ul>
+              </div>
+
+              <div class="likes">
+                <h4>すきなこと</h4>
+                <ul>
+                  <li>犬の動画や写真を見ること</li>
+                  <li>かわいいデザインを見ること</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact">
+          <h2>Contact</h2>
+
+          <p class="comment">お問い合わせは GitHub よりお願いします。</p>
+
+          <p class="githubUrl">
+            <a href="https://github.com/SAyaka80" target="_blank" rel="noopener"> GitHub </a>
+          </p>
+        </section>
+      </main>
+    </div>
+
+    <footer>
+      <p>&copy; 2026 Portfolio/SAyaka</p>
+    </footer>
+  </body>
+</html>

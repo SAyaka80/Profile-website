@@ -1,0 +1,242 @@
+/* 基本の設定 */
+body {
+  background-color: #fff2cf;
+  color: #665739;
+  line-height: 1.7;
+
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+}
+
+/* リストの隙間リセット */
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* HEADER */
+.imgBox {
+  width: 1050px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.naviContainer {
+  background-color: #665739;
+  width: 100%;
+}
+.naviList {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1050px;
+  /* 背景色を設定 */
+  background-color: #665739;
+  padding: 5px 0;
+}
+.naviList li {
+  flex: 1;
+  text-align: center;
+}
+.naviList a {
+  display: block; /* 文字をクリックしやすく */
+  padding: 5px;
+  color: #dbc08a; /* inheritだとbodyで決めた色と同じになる */
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.naviList a:visited {
+  color: #dbc08a;
+}
+
+/* MAIN */
+/* メインの幅 */
+.mainContainer {
+  width: 1050px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+/*  */
+.workTop {
+  display: flex;
+  width: 100%;
+  gap: 40px;
+  align-items: flex-start; /* 上揃え */
+  margin-bottom: 40px;
+}
+
+.workSummary,
+.eyeCatcher {
+  flex: 1;
+}
+
+.workSummary {
+  width: 50%;
+}
+
+.skillList {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+}
+.skillList li {
+  width: 110px;
+  text-align: center;
+
+  padding: 6px 0px;
+  background-color: #dbc08a;
+  color: #665739;
+  border-radius: 9999px;
+  font-weight: bold;
+  white-space: nowrap; /* 改行防止 */
+}
+
+/* DEMOボタン*/
+.urlList {
+  display: flex;
+  gap: 30px;
+  margin-top: 45px;
+}
+.urlList a {
+  padding: 10px 18px;
+  border: 2px solid #665739;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #665739;
+  font-weight: bold;
+}
+.urlList a::after {
+  content: ' ›';
+}
+
+/* サムネイル*/
+.eyeCatcher {
+  width: 50%;
+}
+.eyeCatcher img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+h2 {
+  margin: 0 0 100px;
+  text-align: center;
+}
+
+section {
+  padding-top: 150px;
+  padding-bottom: 0px;
+}
+
+h4 {
+  margin: 25px 0 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.comment {
+  margin-left: 20px;
+}
+
+.urlList {
+  list-style: none;
+}
+.urlList a {
+  text-decoration: none;
+  color: inherit;
+}
+.urlList a:visited {
+  color: inherit;
+}
+
+/*Profile*/
+
+h3.name {
+  color: #665739;
+  font-size: 36px;
+  margin: 0;
+  display: inline-block;
+  border-bottom: 3px solid #665739;
+}
+
+/*プロフィールの全部セット*/
+.profileWrapper {
+  display: flex;
+  align-items: center;
+}
+
+/*アイコンと名前の箱*/
+.profilePN {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 124px 40px;
+}
+
+.profilePic img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/*プロフィール詳細*/
+.profileBody {
+  flex: 1;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.skills,
+.important,
+.likes {
+  margin: 30px 0 30px;
+}
+.profileBody h4 {
+  background-color: #dbc08a;
+  border-radius: 16px;
+  margin: 0px 0px 7px;
+  padding-left: 20px;
+}
+.profileBody ul {
+  list-style-position: inside;
+  padding-left: 30px;
+}
+
+/*Contact*/
+
+#contact p.comment {
+  margin-bottom: 80px;
+}
+
+#contact {
+  padding-bottom: 80px;
+}
+
+#contact p {
+  text-align: center;
+  font-size: 22px;
+}
+.githubUrl a {
+  font-size: 30px;
+  text-decoration: none;
+
+  padding: 15px 30px;
+  background-color: #dbc08a;
+  color: #665739;
+  border-radius: 9999px;
+  font-weight: bold;
+  white-space: nowrap; /* 改行防止 */
+}
+.githubUrl a:visited {
+  color: inherit;
+}
+.githubUrl a::after {
+  content: ' ›';
+}
