@@ -4,7 +4,7 @@
 HTML / CSS / JavaScript の学習成果として制作したポートフォリオサイトです。
 
 ## 公開URL
-https:
+https://sayaka80.github.io/Profile-website/
 
 ## 使用技術
 - HTML
