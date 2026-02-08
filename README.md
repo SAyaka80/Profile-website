@@ -4,12 +4,11 @@
 HTML / CSS / JavaScript の学習成果として制作したポートフォリオサイトです。
 
 ## 公開URL
-https://〇〇.github.io/〇〇/
+https:
 
 ## 使用技術
 - HTML
 - CSS
-- JavaScript
 
 ## 工夫した点
 - 情報のまとまりを意識したシンプルなレイアウトにしました
